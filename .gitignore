@@ -1,0 +1,10 @@
+models/
+.env.local
+data.env
+data/
+*.pyc
+__pycache__/
+.venv-vl/
+.venv-vl-new/
+.venv-step05/
+.venv-step05-new/

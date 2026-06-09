@@ -1,0 +1,12 @@
+# Qwen3-VL local inference (install after base requirements.txt)
+# PyTorch with CUDA — run scripts/install_vl_env.ps1 on Windows
+
+torch>=2.1.0
+# 5.x needs torch.float8_e8m0fnu (torch 2.6+cu124 on Windows may lack it)
+transformers>=4.57.0,<5.0
+accelerate>=0.27.0
+bitsandbytes>=0.43.0
+pillow>=10.0.0
+safetensors>=0.4.0
+sentencepiece>=0.2.0
+matplotlib>=3.8.0
